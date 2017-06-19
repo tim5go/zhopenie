@@ -8,6 +8,12 @@ This module makes heavily use of pyltp
     ```
 2. Download NLP model from [百度雲](http://pan.baidu.com/share/link?shareid=1988562907&uk=2738088569#list/path=%2F)
  
+## Why use LTP?
+LTP has an excellent semantic parsing module shown below:
+![Alt text](https://raw.githubusercontent.com/tim5go/zhopenie/master/img/ltp_p1.png)
+
+Also, in general, LTP performs better than other open-source Chinese NLP libraries,like Jieba ,here's the comparison on word tokenization for SIGHAN Bakeoff 2005 PKU, 510KB dataset:
+![Alt text](https://raw.githubusercontent.com/tim5go/zhopenie/master/img/ltp_p2.png)
 
 ## Usage
 The extractor module tries to break down a Chinese sentence into a Triple relation (e1, e2, r), which can be understood by computer  <br />
